@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
+  
+  
+</head>
+
+<body>
+    <!-- Heading -->
+    <h1>Student Profile Registration</h1>
+    <!-- Main -->
+    <div class="maindiv">
+        <div class="main_content">
+
+            <!-- Main form start -->
+            <form action="">
+                <fieldset>
+                    <legend>Personal Details</legend>
+
+                    <!-- Fullname input -->
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname">
+
+                    <!-- Email input-->
+                    <label for="mail"> Email Address:</label>
+                    <input type="email" id="mail">
+
+                    <!--Bio  -->
+                    <label for="bio">Short Bio:</label>
+                    <textarea name="short-bio" id="bio"></textarea>
+                </fieldset>
+
+                <fieldset>
+
+                    <legend>Course Selection</legend>
+
+                    <!-- Section for selecting available days -->
+                    <label for="Course">Choose a Course:</label>
+                    <select name="choose-course" id="course">
+                        <option value="web-devlopement">Web Devlopement</option>
+                        <option value="uiux-design">UI/UX Design </option>
+                        <option value="data-science">Data Science</option>
+                    </select>
+
+
+                    <label for="">Available Days:</label>
+
+                    <!-- Checkbox for monday -->
+                    <label for="monday">Monday</label>
+                    <input id="monday" type="checkbox">
+
+                    <!-- Checkbox  for wednesday -->
+                    <label for="wednesday">Wednesday</label>
+                    <input id="wednesday" type="checkbox">
+
+                    <!-- Checkbox for friday -->
+                    <label for="friday">Friday</label>
+                    <input id="friday" type="checkbox">
+                    </section>
+                </fieldset>
+
+            </form>
+
+            <!-- List of available course -->
+            <section>
+                <h3> <img src="../assets/Pasted image.png" alt="book" style="height: 20px; width: 20px;">Available Course</h3>
+                <ul>
+                    <li>HTML,CSS,JavaScript</li>
+                    <li>React & Node.js</li>
+                    <li>Node js and express</li>
+                    <li>Phython for beginner</li>
+                </ul>
+            </section>
+
+            <!-- Upcomming session table -->
+            <h3> <img src="../assets/Pasted image (2).png" alt="calender" style="height: 20px; width: 20px;">Upcoming Session</h3>
+            <table border="">
+                <tr class="table_heading">
+                    <th>Course</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                </tr>
+                <tr>
+                    <td>HTML & CSS</td>
+                    <td>June 25</td>
+                    <td>10.00 AM</td>
+                </tr>
+                <tr>
+                    <td>JavaScript Basic</td>
+                    <td>June 28</td>
+                    <td>2.00 PM</td>
+                </tr>
+                <tr>
+                    <td>React Introduction</td>
+                    <td>July 1</td>
+                    <td>11.00 AM</td>
+                </tr>
+            </table>
+
+        </div>
+
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <p class="foot">&copy; 2025 UKI Tech School<span> | </span>Student Portal</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+/* Remove default margin padding */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Change text width */
+legend,
+fieldset {
+    font-weight: bold;
+}
+
+/* style h1  */
+h1 {
+    text-align: center;
+    padding-bottom: 10px;
+
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+
+
+input,
+textarea,
+select,
+table {
+    width: 100%;
+}
+
+label {
+    display: block;
+    padding: 10px 0px;
+}
+
+input,
+textarea,
+select {
+    padding: 10px 0px;
+}
+
+fieldset {
+    border: 2px dashed #000000;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* Collapse border */
+table {
+    border-collapse: collapse;
+}
+
+/* Move table heading left side */
+th {
+    text-align: left;
+}
+
+/* Increace th,td padding All side*/
+th,
+td {
+    padding: 10px;
+}
+
+/* padding to top,bottom */
+h3 {
+    padding: 20px 0px;
+}
+
+ul {
+    padding: 20px;
+}
+
+
+.maindiv {
+    background-color: #e6f2ff;
+    padding: 15px 100px;
+}
+
+.main_content {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+/* table heading  */
+.table_heading {
+    background-color: #99ceff;
+}
+
+/* footer */
+.foot {
+    background-color: #454545;
+    color: #ffffff;
+    text-align: center;
+    padding: 8px;
+
+
+}
